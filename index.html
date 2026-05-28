@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rohan Madane Portfolio</title>
+
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="logo">
+      <i class="fa-solid fa-code"></i>
+      <span>Rohan <strong>Madane</strong></span>
+    </div>
+
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#internships">Internships</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-btns">
+      <button id="themeToggle">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+
+      <a href="cv/Resume.pdf" download class="resume-btn">
+        <i class="fa-solid fa-download"></i>
+        Download Resume
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+
+    <!-- LEFT -->
+    <div class="hero-left">
+
+      <div class="badge">
+        <span class="dot"></span>
+        Java Full Stack Developer
+      </div>
+
+      <h1>
+        Hi, I'm <span>Rohan</span><br>
+        Java Developer
+      </h1>
+
+      <p>
+        Passionate about building efficient, scalable and user-friendly
+        web applications using Java technologies.
+      </p>
+
+      <!-- SOCIAL -->
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+
+      <!-- BUTTONS -->
+      <div class="hero-buttons">
+        <a href="#projects" class="primary-btn">
+          View Projects
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+
+        <a href="#contact" class="secondary-btn">
+          <i class="fa-regular fa-user"></i>
+          Contact Me
+        </a>
+      </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="hero-right">
+
+      <div class="tech-card java">
+        <img src="images/java.png" alt="">
+        <!-- <i class="fa-brands fa-java"></i> -->
+        <span>Java</span>
+      </div>
+
+      <div class="tech-card spring">
+        <i class="fa-solid fa-leaf"></i>
+        <span>Spring Boot</span>
+      </div>
+
+      <div class="tech-card jsp">
+        <i class="fa-solid fa-code"></i>
+        <span>JSP</span>
+      </div>
+
+      <div class="tech-card sql">
+        <i class="fa-solid fa-database"></i>
+        <span>SQL</span>
+      </div>
+
+      <!-- PROFILE IMAGE -->
+      <div class="profile-circle">
+        <img src="images/profile.png" alt="Profile Image">
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== INFO SECTION ===== -->
+  <section class="info-section">
+
+    <!-- ABOUT -->
+    <div class="card about-card" id="about">
+
+      <div class="card-title">
+        <i class="fa-solid fa-user"></i>
+        <h2>About Me</h2>
+      </div>
+
+      <p>
+        I’m a fresher and passionate Java Full Stack Developer.
+        I enjoy building robust web applications and solving
+        real-world problems.
+      </p>
+
+      <p>
+        I have knowledge of Core Java, Web Technologies,
+        Spring Boot, RESTful APIs and Databases.
+      </p>
+
+      <div class="about-boxes">
+
+        <div class="mini-box">
+          <i class="fa-solid fa-graduation-cap"></i>
+           <!-- <img src="education.jpeg" alt=""> -->
+          <h4>Fresher</h4>
+          <span>Ready to work</span>
+        </div>
+
+        <div class="mini-box">
+          <i class="fa-solid fa-code"></i>
+          <h4>Java Developer</h4>
+          <span>Passionate</span>
+        </div>
+
+        <div class="mini-box">
+          <img src="images/goal.png" alt="">
+          <!-- <i class="fa-solid fa-bullseye"></i> -->
+          <h4>Problem Solver</h4>
+          <span>Always learning</span>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="card skills-card" id="skills">
+
+      <div class="card-title">
+        <i class="fa-solid fa-code"></i>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill"><i class="fa-brands fa-html5"></i> HTML</div>
+        <div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS</div>
+        <div class="skill"><i class="fa-brands fa-js"></i> JavaScript</div>
+        <div class="skill"><i class="fa-brands fa-java"></i> Java</div>
+        <div class="skill"><i class="fa-solid fa-code"></i> OOP</div>
+        <div class="skill"><i class="fa-solid fa-database"></i> SQL</div>
+        <div class="skill"><i class="fa-solid fa-server"></i> JDBC</div>
+        <div class="skill"><i class="fa-solid fa-gears"></i> Servlets</div>
+        <div class="skill"><i class="fa-solid fa-file-code"></i> JSP</div>
+        <!-- <div class="skill"><i class="fa-solid fa-leaf"></i> Spring</div> -->
+         <div class="skill"><img src="images/spring.png" alt="Spring"> Spring</div>
+        <!-- <div class="skill"><i class="fa-solid fa-leaf"></i> Spring Boot</div> -->
+          <div class="skill"><img src="images/spring boot.png" alt="Spring Boot"> Spring Boot</div>
+        <div class="skill"><i class="fa-solid fa-cloud"></i> REST APIs</div>
+        <!-- <div class="skill"><i class="fa-solid fa-box"></i> Maven</div> -->
+         <div class="skill"><img src="images/maven.png" alt="Maven"> Maven</div>
+        <div class="skill"><i class="fa-brands fa-github"></i> GitHub</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INTERNSHIPS ===== -->
+  <section class="section-box" id="internships">
+
+    <div class="section-header">
+      <div>
+        <i class="fa-solid fa-briefcase"></i>
+        <h2>Internships</h2>
+      </div>
+
+      <a href="#">See all</a>
+    </div>
+
+    <div class="internship-card">
+      <h3>Java Developer Intern</h3>
+      <p>Worked on Java, JSP, Servlets and MySQL based applications.</p>
+    </div>
+
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section-box" id="projects">
+
+    <div class="section-header">
+      <div>
+        <!-- <i class="fa-solid fa-folder"></i> -->
+        <h2>📁Projects</h2>
+      </div>
+
+      <a href="#">See all</a>
+    </div>
+
+    <div class="project-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <!-- <img
+          src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop"
+          alt="Portfolio Website"
+        > -->
+        <img src="images/portfolio.png" alt="Portfolio Website">
+        <div class="project-content">
+          <h3>Portfolio Website</h3>
+          <p>Responsive portfolio using HTML, CSS and JavaScript.</p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card">
+        <!-- <img
+          src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop"
+          alt="Library Management System"
+        > -->
+        <img src="images/library.png" alt="Library Management System" style="width: 100%; height: 352px; object-fit: cover;">
+        <div class="project-content">
+        <h3>Hospital Management System</h3>
+          <p>Java + MySQL project with authentication and database management.</p>
+          <div class="tags">
+            <span>Java</span>
+            <span>OOP</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact-section" id="contact">
+
+    <h2>Contact Me</h2>
+
+    <form>
+
+      <input type="text" placeholder="Your Name">
+
+      <input type="email" placeholder="Your Email">
+
+      <textarea rows="5" placeholder="Your Message"></textarea>
+
+      <button type="submit">Send Message</button>
+
+    </form>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact2" class="contact-section2">
+
+    <h2>
+      Let's Build Something
+      <span>Amazing</span>
+    </h2>
+
+    <p class="contact-text">
+      Open to internships and freelance opportunities.
+    </p>
+
+    <div class="contact-info">
+
+      <p>📧 rohanvmadane@gmail.com</p>
+
+      <p>📱 +91 9156567650</p>
+
+      <a href="https://www.linkedin.com/in/rohan-madane-6b06bb286">
+        <i class="fa-brands fa-linkedin" style="color: rgb(9, 112, 192);"></i> LinkedIn Profile
+      </a>
+      <!-- <a href="https://linkedin.com">
+        LinkedIn Profile
+      </a> -->
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer>
+
+    <p>
+      © 2026 Rohan Portfolio. Built with HTML CSS JavaScript.
+    </p>
+
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
