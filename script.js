@@ -53,7 +53,7 @@ document.getElementById("contactForm").addEventListener("submit", function(e) {
     const name = document.getElementById("formName").value;
     const message = document.getElementById("formMessage").value;
 
-    const emailTo = "rohanv.madane@gmail.com";
+    const emailTo = "rohanvmadane@gmail.com";
     
     const subject = encodeURIComponent("Portfolio Inquiry from " + name);
     const body = encodeURIComponent("Name: " + name + "\n\nMessage:\n" + message);
