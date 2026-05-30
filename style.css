@@ -693,6 +693,10 @@ footer{
     grid-template-columns:1fr;
   }
 
+  .info-section{
+    grid-template-columns:1fr;
+  }
+
   .hero-left h1{
     font-size:45px;
   }
