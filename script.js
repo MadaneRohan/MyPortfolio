@@ -45,3 +45,18 @@ function typeEffect() {
 }
 
 setInterval(typeEffect, 150);
+
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+    e.preventDefault(); 
+
+    const name = document.getElementById("formName").value;
+    const message = document.getElementById("formMessage").value;
+
+    const emailTo = "rohanv.madane@gmail.com";
+    
+    const subject = encodeURIComponent("Portfolio Inquiry from " + name);
+    const body = encodeURIComponent("Name: " + name + "\n\nMessage:\n" + message);
+  
+    window.location.href = `mailto:${emailTo}?subject=${subject}&body=${body}`;
+});
