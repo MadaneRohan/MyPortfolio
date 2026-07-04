@@ -81,6 +81,11 @@ body{
   background:#111827;
   color:white;
   font-size:18px;
+  transition:0.3s;
+}
+
+#themeToggle:hover{
+  background:#7c5cff;
 }
 
 .resume-btn{
@@ -536,7 +541,7 @@ body{
   margin-top:20px;
   margin-left: 5px;
   display:inline-block;
-  color:#7c5cff;
+  color: rgb(0, 119, 255);
   text-decoration:none;
 }
 
@@ -633,22 +638,146 @@ footer{
 
 /* ===== LIGHT MODE ===== */
 
-.light-mode{
+body.light-mode{
   background:#f3f4f6;
-  color:black;
+  color:#1f2937;
 }
 
-.light-mode .navbar,
-.light-mode .card,
-.light-mode .section-box,
-.light-mode .skill,
-.light-mode .mini-box,
-.light-mode .internship-card,
-.light-mode .project-card,
-.light-mode .social-icons a,
-.light-mode .tech-card{
+body.light-mode .navbar{
+  background:#ffffff;
+  border-bottom:1px solid #e5e7eb;
+}
+
+body.light-mode .nav-links a{
+  color:#1f2937;
+}
+
+body.light-mode #themeToggle{
+  background:#e5e7eb;
+  color:#1f2937;
+}
+
+body.light-mode #themeToggle:hover{
+  background:#7c5cff;
+  color:white;
+}
+
+body.light-mode .resume-btn{
+  border:1px solid #7c5cff;
+  color:#7c5cff;
+}
+
+body.light-mode .resume-btn:hover{
+  background:#7c5cff;
+  color:white;
+}
+
+body.light-mode .badge{
+  background:#e5e7eb;
+  color:#1f2937;
+}
+
+body.light-mode .hero-left h1 span{
+  color:#6b63ff;
+}
+
+body.light-mode .hero-left p{
+  color:#4b5563;
+}
+
+body.light-mode .social-icons a{
+  background:#e5e7eb;
+  color:#1f2937;
+  border:1px solid #d1d5db;
+}
+
+body.light-mode .social-icons a:hover{
+  background:#6b63ff;
+  color:white;
+}
+
+body.light-mode .secondary-btn{
+  border:1px solid #d1d5db;
+  color:#1f2937;
   background:white;
-  color:black;
+}
+
+body.light-mode .secondary-btn:hover{
+  background:#f3f4f6;
+}
+
+body.light-mode .card,
+body.light-mode .section-box{
+  background:#ffffff;
+  color:#1f2937;
+  border:1px solid #e5e7eb;
+}
+
+body.light-mode .card p,
+body.light-mode .section-box p{
+  color:#6b7280;
+}
+
+body.light-mode .mini-box{
+  background:#f3f4f6;
+  color:#1f2937;
+  border:1px solid #e5e7eb;
+}
+
+body.light-mode .skill{
+  background:#f3f4f6;
+  color:#1f2937;
+  border:1px solid #e5e7eb;
+}
+
+body.light-mode .internship-card{
+  background:#f3f4f6;
+  color:#1f2937;
+  border:1px solid #e5e7eb;
+}
+
+body.light-mode .project-card{
+  background:white;
+  border:1px solid #e5e7eb;
+}
+
+body.light-mode .project-content p{
+  color:#6b7280;
+}
+
+body.light-mode .tech-card{
+  background:#f3f4f6;
+  color:#1f2937;
+  border:1px solid #e5e7eb;
+}
+
+body.light-mode .contact-section input,
+body.light-mode .contact-section textarea{
+  background:#ffffff;
+  color:#1f2937;
+  border:1px solid #e5e7eb;
+}
+
+body.light-mode .contact-section input::placeholder,
+body.light-mode .contact-section textarea::placeholder{
+  color:#9ca3af;
+}
+
+body.light-mode .contact-section button{
+  background:linear-gradient(to right,#3b82f6,#a855f7);
+}
+
+body.light-mode .contact-section button:hover{
+  opacity:0.9;
+}
+
+body.light-mode .contact-info a{
+  color:#0077ff;
+}
+
+body.light-mode footer{
+  border-top:1px solid #e5e7eb;
+  color:#6b7280;
 }
 
 /* ===== RESPONSIVE ===== */
@@ -690,10 +819,6 @@ footer{
   }
 
   .hero{
-    grid-template-columns:1fr;
-  }
-
-  .info-section{
     grid-template-columns:1fr;
   }
 
