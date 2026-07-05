@@ -1,6 +1,6 @@
 # 🚀 Rohan Madane - Personal Portfolio Website
 
-![Portfolio Banner](./assets/images/portfolio-banner.png)
+![Portfolio Banner](screenshots/banner.png)
 
 A modern, fully responsive **Personal Portfolio Website** built using **HTML, CSS, and JavaScript** to showcase my skills, projects, internships, and contact information.
 
