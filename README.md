@@ -80,13 +80,12 @@ A modern, fully responsive **Personal Portfolio Website** built using **HTML, CS
 ```
 MyPortfolio/
 │
-├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   └── resume/
-│
+├── cv/
+├── images/
+├── screenshots/
 ├── index.html
+├── style.css
+├── script.js
 ├── README.md
 └── LICENSE
 ```
