@@ -192,7 +192,7 @@ A complete Online Voting Web Application developed using
 - Responsive UI
 
 GitHub:
-https://github.com/MadaneRohan/OnlingVotingApp
+https://github.com/MadaneRohan/OnlineVotingApp
 
 ---
 
